@@ -1,0 +1,30 @@
+# Python virtual environment
+venv/
+.venv/
+
+# Node dependencies and build output
+node_modules/
+**/node_modules/
+frontend/dist/
+dist/
+
+# Generated runtime audio
+backend/audio/generated/*.wav
+!backend/audio/generated/.gitkeep
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Temporary / scratch dumps
+workspace_dump.txt
+]
+
+# System files
+.DS_Store
+Thumbs.db
